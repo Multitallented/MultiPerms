@@ -1,0 +1,17 @@
+author: multitallented
+database: false
+description: A simple permissions plugin
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: redcastlemedia.multitallented.bukkit.multiperms.MultiPerms
+name: MultiPerms
+startup: postworld
+version: '1.0'
+commands:
+   hasperm:
+      aliases: []
+      description: Check if a player has a permission node
+      usage: /<command>
+   listperms:
+      aliases: []
+      description: Lists the perms for a player
+      usage: /<command>
